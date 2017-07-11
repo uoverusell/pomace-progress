@@ -1,77 +1,21 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "pomace-progress@file:///Users/Sams/Developer/pomace/components/progress",
-        "scope": null,
-        "escapedName": "pomace-progress",
-        "name": "pomace-progress",
-        "rawSpec": "file:///Users/Sams/Developer/pomace/components/progress",
-        "spec": "/Users/Sams/Developer/pomace/components/progress",
-        "type": "directory"
-      },
-      "/Users/Sams/Developer/project/inspection"
-    ]
-  ],
-  "_from": "../../pomace/components/progress",
-  "_id": "pomace-progress@0.0.1",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/pomace-progress",
-  "_phantomChildren": {
-    "pomace-base": "0.1.2"
-  },
-  "_requested": {
-    "raw": "pomace-progress@file:///Users/Sams/Developer/pomace/components/progress",
-    "scope": null,
-    "escapedName": "pomace-progress",
-    "name": "pomace-progress",
-    "rawSpec": "file:///Users/Sams/Developer/pomace/components/progress",
-    "spec": "/Users/Sams/Developer/pomace/components/progress",
-    "type": "directory"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "file:../../pomace/components/progress",
-  "_shasum": "d4c0ae11ffa3cc29660ed17c96a7e1ee878ca3a3",
-  "_shrinkwrap": null,
-  "_spec": "pomace-progress@file:///Users/Sams/Developer/pomace/components/progress",
-  "_where": "/Users/Sams/Developer/project/inspection",
-  "author": {
-    "name": "chenfei"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ]
-  },
-  "dependencies": {
-    "pomace-base": "^0.1.1",
-    "pomace-cabinet": "0.0.2",
-    "pomace-tap": "0.0.3"
-  },
-  "description": "\"pomace component\"",
-  "devDependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-preset-es2015": "^6.14.0"
-  },
-  "keywords": [
-    "'pomace'"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
   "name": "pomace-progress",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "''"
+  "version": "0.0.1",
+  "description": "old pomace progress",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "babel": "babel lib/src --out-dir lib"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git@icoice.github.com:uoverusell/pomace-progress.git"
+  },
+  "keywords": [
+    "pomace-progress"
+  ],
+  "author": "cf",
+  "license": "ISC"
 }
